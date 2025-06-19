@@ -1,6 +1,3 @@
-
-Tentu, berikut adalah rangkuman Bab 3 "Classification" dalam format Markdown:
-
 # Rangkuman Bab 3: Klasifikasi
 
 Bab 3 buku "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" memperkenalkan dan menjelaskan konsep fundamental klasifikasi dalam Machine Learning. Klasifikasi adalah salah satu tugas pembelajaran terawasi (supervised learning) yang paling umum, di mana tujuannya adalah untuk mengategorikan atau mengklasifikasikan input ke dalam salah satu dari beberapa kelas diskrit.
@@ -24,4 +21,4 @@ Terakhir, bab ini membahas dua jenis klasifikasi yang lebih kompleks:
 * **Multilabel Classification**: Di mana sebuah instance dapat memiliki banyak kelas secara bersamaan (misalnya, mendeteksi beberapa orang dalam satu gambar). Classifier multilabel mengeluarkan banyak tag biner. Contoh dengan `KNeighborsClassifier` untuk menentukan apakah digit besar dan/atau ganjil disajikan[cite: 106].
 * **Multioutput Classification**: Generalisasi klasifikasi multilabel di mana setiap label dapat berupa multikelas (misalnya, sistem yang menghilangkan *noise* dari gambar, di mana setiap piksel adalah label multikelas yang mewakili intensitas piksel bersih)[cite: 107, 108].
 
-Secara keseluruhan, Bab 3 memberikan pemahaman yang kuat tentang konsep-konsep inti klasifikasi, metrik evaluasinya, dan berbagai jenis tugas klasifikasi, mempersiapkan pembaca untuk menerapkan sistem klasifikasi yang lebih canggih.
+Bab 3 memberikan pemahaman yang tentang konsep-konsep klasifikasi, metrik evaluasinya, dan berbagai jenis tugas klasifikasi, mempersiapkan pembaca untuk menerapkan sistem klasifikasi yang lebih canggih.
