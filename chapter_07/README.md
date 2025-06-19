@@ -1,7 +1,3 @@
-Tentu, berikut adalah rangkuman Bab 7 dari buku "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" dalam format Markdown:
-
----
-
 # Rangkuman Bab 7: Ensemble Learning and Random Forests
 
 Bab 7 dari buku "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" membahas *Ensemble Learning*, sebuah teknik Machine Learning yang menggabungkan prediksi dari beberapa prediktor (model) individu untuk mencapai kinerja yang lebih baik daripada prediktor terbaik sekalipun. Konsep utamanya adalah "kebijaksanaan keramaian" (*wisdom of the crowd*), di mana agregasi jawaban dari banyak individu seringkali lebih akurat daripada jawaban seorang ahli tunggal.
@@ -43,7 +39,3 @@ Bab ini secara umum menjelaskan beberapa metode *Ensemble* yang populer:
 ## 7. Stacking (Stacked Generalization)
 * **Konsep**: Melatih sebuah model (*blender* atau *meta learner*) untuk menggabungkan prediksi dari prediktor-prediktor individu, alih-alih menggunakan fungsi agregasi trivial.
 * **Proses Pelatihan**: Melibatkan pelatihan model dasar pada satu subset data, lalu menggunakan prediksi mereka pada subset data kedua untuk melatih *blender*. Ini dapat diperluas ke beberapa lapisan *ensemble*.
-
-Secara keseluruhan, Bab 7 menunjukkan bahwa dengan menggabungkan kekuatan beberapa model, *Ensemble Learning* dapat menghasilkan prediktor yang lebih kuat dan lebih akurat untuk berbagai masalah Machine Learning.
-
----
