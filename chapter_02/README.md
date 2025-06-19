@@ -1,4 +1,4 @@
-### **Ringkasan Bab 2: Proyek Machine Learning End-to-End**
+# **Ringkasan Bab 2: Proyek Machine Learning End-to-End**
 
 Bab 2 dari buku "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" (Edisi ke-2) oleh Aurélien Géron menyajikan panduan praktis dan komprehensif tentang langkah-langkah dalam proyek Machine Learning (ML) yang realistis. Bab ini memposisikan pembaca sebagai seorang *data scientist* yang baru direkrut di perusahaan real estat, dengan tugas memprediksi harga perumahan di California berdasarkan data sensus.
 
