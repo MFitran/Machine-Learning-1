@@ -1,4 +1,4 @@
-### Rangkuman Bab 11: Melatih Deep Neural Networks
+# Rangkuman Bab 11: Melatih Deep Neural Networks
 
 Bab 11 dari buku "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" membahas secara mendalam berbagai tantangan yang muncul saat melatih Jaringan Neural Dalam (DNN) dan menyediakan beragam teknik untuk mengatasinya. Tujuan utamanya adalah membekali pembaca dengan pemahaman dan alat praktis untuk membangun serta melatih model DNN yang lebih dalam dan lebih efektif.
 
