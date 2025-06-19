@@ -1,7 +1,3 @@
-Tentu, ini adalah rangkuman (penjelasan umum bab) dari Bab 5: Support Vector Machines (SVM) dalam format Markdown:
-
----
-
 # Rangkuman Bab 5: Support Vector Machines (SVM)
 
 Bab 5 dari buku "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" membahas secara mendalam tentang **Support Vector Machines (SVM)**, sebuah model Machine Learning yang sangat **kuat dan serbaguna**. SVM tidak hanya mampu melakukan **klasifikasi linier dan nonlinier**, tetapi juga dapat digunakan untuk **regresi** dan bahkan **deteksi outlier**. Model ini sangat populer dan cocok untuk **klasifikasi dataset berukuran kecil hingga menengah yang kompleks**.
