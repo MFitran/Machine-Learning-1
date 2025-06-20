@@ -140,9 +140,9 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
         * ***XGBoost*:** Implementasi *Gradient Boosting* yang sangat dioptimalkan. 
     * ***Stacking* (Stacked Generalization):** Melatih model untuk melakukan agregasi prediksi dari semua prediktor dalam suatu *ensemble*. 
 
-### Bagian II: Jaringan Saraf dan Pembelajaran Mendalam (*Neural Networks & Deep Learning*)
+### Bagian II: _Neural Networks_ dan Pembelajaran Mendalam (*_Neural Networks_ & Deep Learning*)
 
-1.  **Pengantar Jaringan Saraf Tiruan dengan Keras (Bab 10)**
+1.  **Pengantar _Neural Networks_ Tiruan dengan Keras (Bab 10)**
     * **Dari Neuron Biologis ke Artifisial:** Inspirasi dari arsitektur otak. 
         * **Neuron Biologis:** Sel-sel otak yang berkomunikasi melalui impuls listrik. 
         * **Komputasi Logis dengan Neuron:** Model sederhana neuron artifisial dapat melakukan komputasi logis. 
@@ -151,7 +151,7 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
         * **Kelemahan *Perceptron*:** Tidak mampu menyelesaikan masalah nonlinier sederhana (misal: XOR). 
     * ***Multilayer Perceptron (MLP)* dan *Backpropagation*:**
         * **Arsitektur MLP:** Lapisan masukan, satu atau lebih lapisan tersembunyi (*hidden layers*), dan lapisan keluaran (*output layer*). 
-        * ***Deep Neural Networks (DNNs)*:** MLP dengan tumpukan lapisan tersembunyi yang dalam. 
+        * ***Deep _Neural Networks_ (DNNs)*:** MLP dengan tumpukan lapisan tersembunyi yang dalam. 
         * **Algoritma *Backpropagation*:** Penurunan Gradien yang menggunakan teknik efisien untuk menghitung gradien secara otomatis (*autodiff*). 
         * **Fungsi Aktivasi Nonlinier:** Penting untuk dapat menyelesaikan masalah kompleks (misal: *logistic/sigmoid*, *tanh*, *ReLU*). 
     * **MLP untuk Regresi:** Arsitektur umum untuk tugas regresi. 
@@ -164,17 +164,17 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
         * **Menyimpan dan Memulihkan Model:** Cara menyimpan model terlatih. 
         * **Menggunakan *Callbacks*:** Objek yang dipanggil Keras selama pelatihan (misal: *ModelCheckpoint*, *EarlyStopping*, *TensorBoard*). 
         * **Menggunakan *TensorBoard* untuk Visualisasi:** Alat visualisasi interaktif untuk memantau kurva pembelajaran, grafik komputasi, dll. 
-    * **Penyempurnaan *Hyperparameter* Jaringan Saraf:** Mencari kombinasi *hyperparameter* terbaik (misal: jumlah lapisan tersembunyi, jumlah neuron per lapisan, laju pembelajaran, ukuran *batch*, fungsi aktivasi). 
+    * **Penyempurnaan *Hyperparameter* _Neural Networks_:** Mencari kombinasi *hyperparameter* terbaik (misal: jumlah lapisan tersembunyi, jumlah neuron per lapisan, laju pembelajaran, ukuran *batch*, fungsi aktivasi). 
 
-2.  **Pelatihan Jaringan Saraf Dalam (*Deep Neural Networks*) (Bab 11)**
+2.  **Pelatihan _Neural Networks_ Dalam (*Deep _Neural Networks_*) (Bab 11)**
     * ***Vanishing/Exploding Gradients Problems*:** Gradien menjadi terlalu kecil atau terlalu besar saat mengalir mundur melalui DNN, membuat lapisan bawah sulit dilatih. 
         * ***Glorot* dan *He Initialization*:** Strategi inisialisasi bobot yang mengurangi masalah gradien tidak stabil. 
         * **Fungsi Aktivasi Non-saturasi:** Fungsi seperti *ReLU* dan variannya (misal: *Leaky ReLU*, *PReLU*, *ELU*, *SELU*) membantu mengurangi masalah gradien. 
         * ***Batch Normalization (BN)*:** Menambahkan operasi yang menstandardisasi input lapisan, lalu menskalakan dan menggeser hasilnya. Mempercepat pelatihan dan bertindak sebagai regularisasi. 
         * ***Gradient Clipping*:** Memotong gradien agar tidak melebihi *threshold* tertentu. 
-    * **Menggunakan Kembali Lapisan *Pretrained* (*Transfer Learning*):** Menggunakan kembali lapisan bawah dari jaringan saraf yang sudah dilatih pada tugas serupa untuk mempercepat pelatihan dan mengurangi kebutuhan data berlabel. 
+    * **Menggunakan Kembali Lapisan *Pretrained* (*Transfer Learning*):** Menggunakan kembali lapisan bawah dari _neural network_ yang sudah dilatih pada tugas serupa untuk mempercepat pelatihan dan mengurangi kebutuhan data berlabel. 
     * **Pelatihan Tanpa Pengawasan (*Unsupervised Pretraining*):** Melatih model tanpa pengawasan (misal: *autoencoder* atau GAN) pada data tidak berlabel, lalu menggunakan lapisan bawahnya untuk tugas sebenarnya. 
-    * **Pelatihan pada Tugas Tambahan (*Auxiliary Task*):** Melatih jaringan saraf pada tugas yang mudah mendapatkan data berlabel, lalu menggunakan lapisan bawahnya untuk tugas utama. 
+    * **Pelatihan pada Tugas Tambahan (*Auxiliary Task*):** Melatih _neural network_ pada tugas yang mudah mendapatkan data berlabel, lalu menggunakan lapisan bawahnya untuk tugas utama. 
     * **Optimizer yang Lebih Cepat:** 
         * ***Momentum Optimization*:** Menggunakan momentum untuk mempercepat penurunan gradien. 
         * ***Nesterov Accelerated Gradient (NAG)*:** Varian *momentum optimization* yang lebih cepat. 
@@ -194,14 +194,14 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
         * ***Tensors* dan Operasi:** Mirip dengan *NumPy ndarray*, tetapi *immutable*. 
         * ***Tensors* dan NumPy:** Integrasi yang baik antara *tensor* TensorFlow dan *NumPy array*. 
         * **Konversi Tipe:** TensorFlow tidak melakukan konversi tipe secara otomatis untuk menghindari penurunan kinerja. 
-        * ***Variables*:** *Tensor* yang dapat dimodifikasi (*mutable*) untuk bobot jaringan saraf. 
+        * ***Variables*:** *Tensor* yang dapat dimodifikasi (*mutable*) untuk bobot _neural network_. 
         * **Struktur Data Lainnya:** *Sparse tensors*, *tensor arrays*, *ragged tensors*, *string tensors*, *sets*, *queues*. 
     * **Menyesuaikan Model dan Algoritma Pelatihan:** 
         * **Fungsi *Loss* Kustom:** Membuat fungsi *loss* khusus (misal: *Huber loss*). 
         * **Menyimpan dan Memuat Model yang Mengandung Komponen Kustom:** Memastikan komponen kustom dapat disimpan dan dimuat bersama model. 
         * **Fungsi Aktivasi, Inisialisasi, Regularisasi, dan Batasan Kustom:** Membuat fungsi kustom untuk berbagai aspek model. 
         * **Metrik Kustom:** Membuat metrik khusus (misal: metrik *streaming*). 
-        * **Lapisan Kustom (*Custom Layers*):** Membangun lapisan neural network sendiri. 
+        * **Lapisan Kustom (*Custom Layers*):** Membangun lapisan _neural network_ sendiri. 
         * **Model Kustom (*Custom Models*):** Membangun arsitektur model yang kompleks. 
         * **Fungsi *Loss* dan Metrik Berbasis Internal Model:** Mendefinisikan *loss* atau metrik berdasarkan bobot atau aktivasi lapisan tersembunyi. 
     * **Menghitung Gradien Menggunakan *Autodiff*:** Memanfaatkan `tf.GradientTape` untuk menghitung gradien secara otomatis. 
@@ -231,7 +231,7 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
     * ***TF Transform*:** Mendefinisikan operasi pra-pemrosesan sekali dan menjalankannya secara *batch* sebelum pelatihan, serta mengekspornya ke *TF Function* untuk *deployment*. 
     * **Proyek *TensorFlow Datasets (TFDS)*:** Mengunduh dataset umum dengan mudah. 
 
-5.  **Visi Komputer Mendalam Menggunakan Jaringan Saraf Konvolusional (Bab 14)**
+5.  **Visi Komputer Mendalam Menggunakan _Neural Networks_ Konvolusional (Bab 14)**
     * **Arsitektur Korteks Visual:** Inspirasi dari neuron biologis dengan *receptive fields* lokal. 
     * **Lapisan Konvolusional (*Convolutional Layers*):** Blok pembangun utama CNN. 
         * ***Receptive Fields*, *Stride*, *Padding*:** Konsep-konsep penting dalam lapisan konvolusional. 
@@ -264,7 +264,7 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
 
 6.  **Memproses Urutan Menggunakan RNN dan CNN (Bab 15)**
     * **Neuron dan Lapisan Berulang (*Recurrent Neurons and Layers*):** Jaringan saraf dengan koneksi mundur, memungkinkan "memori" temporal. 
-    * **Sel Memori (*Memory Cells*):** Bagian dari jaringan saraf yang mempertahankan beberapa keadaan lintas langkah waktu. 
+    * **Sel Memori (*Memory Cells*):** Bagian dari _neural network_ yang mempertahankan beberapa keadaan lintas langkah waktu. 
     * **Urutan Masukan dan Keluaran (*Input and Output Sequences*):** RNN dapat mengambil urutan masukan dan menghasilkan urutan keluaran. 
         * **Urutan-ke-Urutan (*Sequence-to-Sequence*):** Input dan output adalah urutan. 
         * **Urutan-ke-Vektor (*Sequence-to-Vector*):** Input adalah urutan, output adalah vektor tunggal. 
@@ -341,7 +341,7 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
     * **Belajar Mengoptimalkan Hadiah:** Agen belajar bertindak untuk memaksimalkan hadiah yang diharapkan. 
     * **Pencarian Kebijakan (*Policy Search*):** Algoritma yang digunakan agen untuk menentukan tindakannya. 
     * **Pengantar OpenAI Gym:** *Toolkit* yang menyediakan berbagai lingkungan simulasi untuk melatih agen. 
-    * **Kebijakan Jaringan Saraf (*Neural Network Policies*):** Menggunakan jaringan saraf untuk mengestimasi probabilitas setiap tindakan. 
+    * **Kebijakan _Neural Networks_ (*Neural Network Policies*):** Menggunakan _neural network_ untuk mengestimasi probabilitas setiap tindakan. 
     * **Mengevaluasi Tindakan (*Credit Assignment Problem*):** Menilai tindakan berdasarkan jumlah semua hadiah yang datang setelahnya. 
     * **Penurunan Gradien Kebijakan (*Policy Gradients - PG*):** Mengoptimalkan parameter kebijakan dengan mengikuti gradien menuju hadiah yang lebih tinggi. 
     * **Proses Keputusan Markov (*Markov Decision Processes - MDPs*):** Model matematika untuk pengambilan keputusan di mana hasilnya sebagian acak dan sebagian dikendalikan oleh agen. 
@@ -410,12 +410,12 @@ Pembelajaran ini terbagi menjadi dua bagian utama:
 
 ## Kesimpulan
 
-Pembelajaran ini telah mencakup berbagai konsep fundamental dan teknik implementasi Machine Learning, mulai dari dasar-dasar seperti jenis pembelajaran dan persiapan data, hingga topik-topik canggih dalam *Deep Learning* seperti arsitektur jaringan saraf yang kompleks (CNN, RNN, Transformer), *autoencoder*, GAN, dan *Reinforcement Learning*. Penekanan pada implementasi praktis menggunakan Scikit-Learn, Keras, dan TensorFlow, serta pemahaman tentang cara menangani data besar dan *deployment* model pada skala besar, memberikan fondasi yang kuat bagi siapa pun yang ingin menjadi praktisi Machine Learning yang handal.
+Pembelajaran ini telah mencakup berbagai konsep fundamental dan teknik implementasi Machine Learning, mulai dari dasar-dasar seperti jenis pembelajaran dan persiapan data, hingga topik-topik canggih dalam *Deep Learning* seperti arsitektur _neural network_ yang kompleks (CNN, RNN, Transformer), *autoencoder*, GAN, dan *Reinforcement Learning*. Penekanan pada implementasi praktis menggunakan Scikit-Learn, Keras, dan TensorFlow, serta pemahaman tentang cara menangani data besar dan *deployment* model pada skala besar, memberikan fondasi yang kuat bagi siapa pun yang ingin menjadi praktisi Machine Learning yang handal.
 
 **Poin-poin Penting yang Dipelajari:**
 * **Fondasi ML:** Memahami berbagai jenis pembelajaran, metrik evaluasi, dan tantangan umum.
 * **Pipeline ML:** Menguasai alur kerja proyek ML dari awal hingga *deployment*.
-* **Jaringan Saraf:** Membangun, melatih, dan menyempurnakan MLP, CNN, dan RNN dengan Keras dan TensorFlow.
+* **_Neural Networks_:** Membangun, melatih, dan menyempurnakan MLP, CNN, dan RNN dengan Keras dan TensorFlow.
 * **Optimasi & Regularisasi:** Mengatasi masalah gradien, *overfitting*, dan mempercepat pelatihan menggunakan teknik-teknik canggih.
 * **Pemrosesan Data Skala Besar:** Menggunakan `tf.data`, TFRecord, dan lapisan pra-pemrosesan Keras untuk *pipeline* data yang efisien.
 * **Pembelajaran Tanpa Pengawasan:** Memanfaatkan *clustering*, *autoencoder*, dan GAN untuk analisis data, reduksi dimensi, dan generasi data.
