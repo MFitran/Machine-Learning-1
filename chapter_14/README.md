@@ -1,7 +1,3 @@
-Tentu, saya akan merangkum Bab 14 "Deep Computer Vision Using Convolutional Neural Networks (CNNs)" dalam format Markdown, menjelaskan bab secara umum dengan mengacu pada buku yang Anda berikan:
-
----
-
 # Rangkuman Bab 14: Deep Computer Vision Menggunakan Convolutional Neural Networks (CNNs)
 
 Bab 14 dari buku "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" (Edisi ke-2) oleh Aurélien Géron, membahas secara komprehensif Convolutional Neural Networks (CNNs) sebagai tulang punggung visi komputer modern. Bab ini bertujuan untuk memberikan pemahaman menyeluruh tentang arsitektur, cara kerja, dan aplikasinya dalam berbagai tugas visual.
